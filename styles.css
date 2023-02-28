@@ -1,0 +1,306 @@
+html,body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    margin: 0px;
+    padding: 0px;
+}
+.title-image{
+    border-radius: 50%;
+    width: 50%;
+    position: relative;
+   
+    left: 10%;
+}
+.rounded-circle{
+  position: relative;
+  left: 100px;
+}
+.navbar-nav{
+  position: relative;
+  right: 150px;
+}
+.a{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.b{
+    position: relative;
+    top: 40px;
+    left: 30%;
+    color: white;
+}
+.c{
+    position: relative;
+    top: 50px;
+    left: 20%;
+    color: white;
+}
+.d{
+    position: relative;
+    left: 20%;
+    color: white;
+}
+@media (max-width: 1028px) {
+  
+      
+   .a,.b,.c,.d {
+      position: static;
+      
+    }
+  }
+ #title{
+    width: 100%;
+    background-image: url(images/back1.jpeg);
+ }
+  /* #testimonials{
+    background-image: url(images/back4.jpg);
+    padding: 7% 15%;
+  text-align: center;
+    color: white;
+   
+    
+  
+ }   
+
+ .testimonials-image{
+    width: 39%;
+
+ }
+ .testimonials2-image{
+    width: 54%;
+
+ }
+ .testimonials1-image{
+    width: 45%;
+
+ }
+ .testimonials-text{
+    color: black;
+    font-size: 3rem;
+    position: relative;
+    bottom: 50px;
+ }   
+  */
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+   */
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .h {
+    font-size: 50px;
+    word-break: break-all;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .a1{
+   
+   text-align: center;
+   position: relative;
+   bottom: 50px;
+   
+  }
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .col {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .col {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 15px;
+    
+  }
+  .content:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-image: url("images/back4.jpg");
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .col {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+  }
+  #pricing{
+    padding: 100px;
+    /* background-image: url("images/back3.jpg"); */
+ }
+
+ .card{
+    max-width: 18rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+
+    
+
+ #review{
+  padding: 100px;
+  background-image: url("images/images.jpg");
+ }
+ .a2{
+   color: white;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  
+ }
+ .a3{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  
+ }
+ 
+ .checked {
+  color: orange;
+}
+.a4{
+  position: relative;
+  /* left: 70px; */
+  top: 30px;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #05526c;
+  overflow: hidden;
+  width: 50%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* input[type=submit] {
+  background-color: #000805d7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* input[type=submit]:hover {
+  background-color: #060606;
+} */
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-image: url("images/back3.jpg");
+  padding: 10px;
+color: white;
+}
+
+/* Create two columns that float next to eachother */
+.col {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col,.overlay:hover, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.footer-i{
+  padding: 3% 3% 3%;
+  width:20px;
+}
